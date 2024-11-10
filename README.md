@@ -1,5 +1,7 @@
-# Encrypted-NP 
-The Encrypted Notepad software is designed to provide a safe environment for sensitive data. Users can create new files with password protection, reset passwords securely, and recover access via security questions if needed. The program also includes a straightforward interface to help users navigate through its functions seamlessly.
+# Encrypted-NotePod
+
+The Encrypted NotePod is a  blend of "Note" and "Code.
+software is designed to provide a safe environment for sensitive data. Users can create new files with password protection, reset passwords securely, and recover access via security questions if needed. The program also includes a straightforward interface to help users navigate through its functions seamlessly.
 
 # Overview 
 Developed as a part of a mini-project, this application integrates encryption techniques, ensuring that data remains confidential. This makes Encrypted Notepad ideal for individuals and organizations requiring a secure storage solution.
