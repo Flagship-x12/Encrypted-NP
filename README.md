@@ -67,7 +67,7 @@ Require user authentication (password or security question) to access files.
 6. edits without compromising data integrity.
 7. User Interface: Simple and intuitive, enabling easy navigation.
 
-Expected Outcomes
+# Expected Outcomes
 
 Secure Storage: Protection against unauthorized access.
 User-Friendly Interface: Intuitive navigation for file management.
