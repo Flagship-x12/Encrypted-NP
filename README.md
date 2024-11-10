@@ -1,27 +1,76 @@
 # Encrypted-NP 
-#ENP is a secure C program designed to create, edit, and manage text files with encrypted contents. By implementing file locking and password protection, this program provides an additional security layer, ideal for storing sensitive information. Key functionalities include creating encrypted files, setting and resetting passwords, editing file contents with access restrictions, and displaying stored information securely. The user-friendly command-line interface supports strong encryption practices, making this a reliable tool for maintaining confidentiality of personal or professional data.
+The Encrypted Notepad software is designed to provide a safe environment for sensitive data. Users can create new files with password protection, reset passwords securely, and recover access via security questions if needed. The program also includes a straightforward interface to help users navigate through its functions seamlessly.
 
-#Features
+Developed as a part of a mini-project, this application integrates encryption techniques, ensuring that data remains confidential. This makes Encrypted Notepad ideal for individuals and organizations requiring a secure storage solution.
 
-Secure File Creation: Create new files with unique IDs, titles, and encrypted content.
-Password Protection: Set and reset passwords to prevent unauthorized access.
-Content Editing: Modify existing files after entering the correct password.
-Forgot Password Recovery: Retrieve access through security questions in case of a forgotten password.
-File Display: View encrypted content securely by providing the correct password.
-Additional Security: Uses strong encryption algorithms to protect data from unauthorized access.
+Features
 
+File Creation: Create secure files with titles, IDs, and encrypted contents.
 
-#Project Structure
+Password Protection: Password management for controlled access to each file.
 
-createFile(): Prompts users to enter a title, ID, and content for a new file, then saves this information securely.
-setPassword(): Sets a password for the created file, providing the first layer of security.
-editFile(): Allows the user to edit a file’s content, accessible only with the correct password.
-resetPassword(): Enables users to change the password after verifying the current password.
-forgotPassword(): Facilitates password recovery by verifying answers to a custom security question.
-showFile(): Displays file content to authorized users after successful password entry.
+Edit & Display Files: Authorized users can edit or view files after entering the correct password.
 
-#Installation
+Forgot Password: Answer security questions to retrieve a forgotten password.
+
+Encryption & Decryption: Utilizes strong encryption algorithms to secure text data.
 
 Prerequisites
-C Compiler (GCC, Turbo C++, or Visual Studio)
-Operating System: Windows 7 or higher (or compatible C environment on other OS)
+
+To run Encrypted Notepad, you will need:
+Operating System: Windows 7 or above (or compatible environment)
+C Compiler: Turbo C++, GCC, or Visual Studio
+
+
+Installation
+
+1. Clone the repository:
+git clone https://github.com/your-username/Encrypted-NP.git
+
+2. Navigate to the project directory:
+cd Encrypted-NP
+
+3. Compile the program:
+gcc encrypted_notepad.c -o encrypted_notepad
+
+4. Run the program:
+./encrypted_notepad
+
+Usage
+
+1. Launch the program to display the main menu.
+2. Choose an option:
+Create File: Enter a title, ID, and text to create a new file, then set a password.
+Edit File: Modify file contents after entering the correct password.
+Reset Password: Verify the current password, then set a new password.
+Forgot Password: Retrieve the password by answering the security question.
+Open File: Enter the correct password to view file contents.
+New File: Start a fresh file with title, ID, and encrypted text.
+Exit: Close the application.
+
+Data Structures
+
+Arrays: Used for storing text and managing encryption keys.
+Structures: Store user information, including access levels, login credentials, and encryption keys.
+Linked Lists: Organize the encrypted text in a secure and efficient format.
+
+Design
+
+Goals
+Maintain the confidentiality and integrity of stored data.
+Encrypt text before storing and decrypt when retrieving.
+Require user authentication (password or security question) to access files.
+
+Methodology
+
+1. Encryption: Encrypts text entered into the notepad, making it unreadable to unauthorized users.
+2. Authentication: Provides secure login and multi-factor authentication.
+3. Data Storage: Stores encrypted text securely on the device.
+4. Text Editing: Allows users to make edits without compromising data integrity.
+5. User Interface: Simple and intuitive, enabling easy navigation.
+
+Expected Outcomes
+
+Secure Storage: Protection against unauthorized access.
+User-Friendly Interface: Intuitive navigation for file management.
+Robust Encryption: Encrypted text that only authorized users can access.
