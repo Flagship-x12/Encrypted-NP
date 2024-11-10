@@ -3,8 +3,7 @@ The Encrypted Notepad software is designed to provide a safe environment for sen
 
 Developed as a part of a mini-project, this application integrates encryption techniques, ensuring that data remains confidential. This makes Encrypted Notepad ideal for individuals and organizations requiring a secure storage solution.
 
-Features
-
+# Features
 File Creation: Create secure files with titles, IDs, and encrypted contents.
 
 Password Protection: Password management for controlled access to each file.
@@ -15,14 +14,14 @@ Forgot Password: Answer security questions to retrieve a forgotten password.
 
 Encryption & Decryption: Utilizes strong encryption algorithms to secure text data.
 
-Prerequisites
+# Prerequisites
 
 To run Encrypted Notepad, you will need:
 Operating System: Windows 7 or above (or compatible environment)
 C Compiler: Turbo C++, GCC, or Visual Studio
 
 
-Installation
+# Installation
 
 1. Clone the repository:
 git clone https://github.com/your-username/Encrypted-NP.git
@@ -36,7 +35,7 @@ gcc encrypted_notepad.c -o encrypted_notepad
 4. Run the program:
 ./encrypted_notepad
 
-Usage
+# Usage
 
 1. Launch the program to display the main menu.
 2. Choose an option:
@@ -48,15 +47,13 @@ Open File: Enter the correct password to view file contents.
 New File: Start a fresh file with title, ID, and encrypted text.
 Exit: Close the application.
 
-Data Structures
+# Data Structures
 
 Arrays: Used for storing text and managing encryption keys.
 Structures: Store user information, including access levels, login credentials, and encryption keys.
 Linked Lists: Organize the encrypted text in a secure and efficient format.
 
-Design
-
-Goals
+# Goals
 Maintain the confidentiality and integrity of stored data.
 Encrypt text before storing and decrypt when retrieving.
 Require user authentication (password or security question) to access files.
