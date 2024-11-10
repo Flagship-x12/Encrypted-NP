@@ -58,13 +58,14 @@ Maintain the confidentiality and integrity of stored data.
 Encrypt text before storing and decrypt when retrieving.
 Require user authentication (password or security question) to access files.
 
-Methodology
+# Methodology
 
 1. Encryption: Encrypts text entered into the notepad, making it unreadable to unauthorized users.
 2. Authentication: Provides secure login and multi-factor authentication.
 3. Data Storage: Stores encrypted text securely on the device.
-4. Text Editing: Allows users to make edits without compromising data integrity.
-5. User Interface: Simple and intuitive, enabling easy navigation.
+5. Text Editing: Allows users to make
+6. edits without compromising data integrity.
+7. User Interface: Simple and intuitive, enabling easy navigation.
 
 Expected Outcomes
 
