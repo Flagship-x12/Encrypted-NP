@@ -1,7 +1,7 @@
 # Encrypted-NP 
 #ENP is a secure C program designed to create, edit, and manage text files with encrypted contents. By implementing file locking and password protection, this program provides an additional security layer, ideal for storing sensitive information. Key functionalities include creating encrypted files, setting and resetting passwords, editing file contents with access restrictions, and displaying stored information securely. The user-friendly command-line interface supports strong encryption practices, making this a reliable tool for maintaining confidentiality of personal or professional data.
 
-Features
+#Features
 
 Secure File Creation: Create new files with unique IDs, titles, and encrypted content.
 Password Protection: Set and reset passwords to prevent unauthorized access.
@@ -11,7 +11,7 @@ File Display: View encrypted content securely by providing the correct password.
 Additional Security: Uses strong encryption algorithms to protect data from unauthorized access.
 
 
-Project Structure
+#Project Structure
 
 createFile(): Prompts users to enter a title, ID, and content for a new file, then saves this information securely.
 setPassword(): Sets a password for the created file, providing the first layer of security.
@@ -20,7 +20,7 @@ resetPassword(): Enables users to change the password after verifying the curren
 forgotPassword(): Facilitates password recovery by verifying answers to a custom security question.
 showFile(): Displays file content to authorized users after successful password entry.
 
-Installation
+#Installation
 
 Prerequisites
 C Compiler (GCC, Turbo C++, or Visual Studio)
